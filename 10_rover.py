@@ -1,5 +1,5 @@
 # 10_rover.py
-# Attach: SR-04 Range finder, switch on SW1, and course motors.
+# Attach: SR-04 Range finder, switch on SW1, and of course motors.
 # The switch stops and starts the robot
 
 from rrb2 import *
