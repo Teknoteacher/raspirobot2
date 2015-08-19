@@ -1,5 +1,5 @@
 # 10_rover.py
-# Attach: SR-04 Range finder, switch on SW1, and of course motors.
+# Attach: SR-04 Range finder, switch on SW1, and the motors.
 # The switch stops and starts the robot
 
 from rrb2 import *
@@ -9,8 +9,8 @@ rr = RRB2()
 
 motor_speed = 0.6
 
-# if you dont have a switch, change the value below to True
-running = True
+# if you dont have a switch connected, change the value below to True
+running = False
 
 def turn_randomly():
     turn_time = random.randint(1, 3)
